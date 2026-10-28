@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="820" viewBox="0 0 900 820">
+  <title id="p3-title">probe3 url schemes</title>
+  <rect id="p3-bg" x="0" y="0" width="900" height="820" fill="#ffffff"/>
+  <text id="p3-start" x="10" y="24" font-size="16" fill="#000">P3 START: click a row, note alert</text>
+
+  <a id="p3-safe" href="https://example.com/p3-safe"><text x="10" y="52" font-size="13">01 safe https (control)</text></a>
+  <a id="p3-plain" href="javascript:alert('P3_PLAIN')"><text x="10" y="76" font-size="13">02 plain javascript</text></a>
+  <a id="p3-case" href="JaVaScRiPt:alert('P3_CASE')"><text x="10" y="100" font-size="13">03 mixed case</text></a>
+  <a id="p3-tab" href="java&#9;script:alert('P3_TAB')"><text x="10" y="124" font-size="13">04 tab entity</text></a>
+  <a id="p3-lf" href="java&#10;script:alert('P3_LF')"><text x="10" y="148" font-size="13">05 lf entity</text></a>
+  <a id="p3-cr" href="java&#13;script:alert('P3_CR')"><text x="10" y="172" font-size="13">06 cr entity</text></a>
+  <a id="p3-lead-tab" href="&#9;javascript:alert('P3_LEADTAB')"><text x="10" y="196" font-size="13">07 leading tab</text></a>
+  <a id="p3-lead-space" href="&#32;javascript:alert('P3_LEADSPACE')"><text x="10" y="220" font-size="13">08 leading space</text></a>
+  <a id="p3-entity-j" href="&#x6a;avascript:alert('P3_ENTITYJ')"><text x="10" y="244" font-size="13">09 numeric j</text></a>
+  <a id="p3-entity-colon" href="javascript&#x3a;alert('P3_ENTITYCOLON')"><text x="10" y="268" font-size="13">10 hex colon</text></a>
+  <a id="p3-dec-colon" href="javascript&#58;alert('P3_DECCOLON')"><text x="10" y="292" font-size="13">11 decimal colon</text></a>
+  <a id="p3-xlink" xlink:href="javascript:alert('P3_XLINK')"><text x="10" y="316" font-size="13">12 xlink javascript</text></a>
+  <a id="p3-xlink-case" xlink:href="JaVaScRiPt:alert('P3_XLINK_CASE')"><text x="10" y="340" font-size="13">13 xlink mixed case</text></a>
+  <a id="p3-xlink-tab" xlink:href="java&#9;script:alert('P3_XLINK_TAB')"><text x="10" y="364" font-size="13">14 xlink tab</text></a>
+  <a id="p3-data-html" href="data:text/html,&lt;script&gt;alert('P3_DATA')&lt;/script&gt;"><text x="10" y="388" font-size="13">15 data text/html</text></a>
+  <a id="p3-data-svg" href="data:image/svg+xml,&lt;svg xmlns='http://www.w3.org/2000/svg' onload='alert(1)'/&gt;"><text x="10" y="412" font-size="13">16 data image/svg+xml</text></a>
+  <a id="p3-vbs" href="vbscript:msgbox('P3_VBS')"><text x="10" y="436" font-size="13">17 vbscript</text></a>
+  <a id="p3-blob" href="blob:https://example.com/123"><text x="10" y="460" font-size="13">18 blob</text></a>
+  <a id="p3-mailto" href="mailto:p3@example.com"><text x="10" y="484" font-size="13">19 mailto</text></a>
+  <a id="p3-relative" href="//example.com/p3"><text x="10" y="508" font-size="13">20 protocol-relative</text></a>
+  <a id="p3-fragment" href="#p3-start"><text x="10" y="532" font-size="13">21 fragment</text></a>
+  <a id="p3-hex-colon" href="javascript&#x3a;//example.com/alert('P3_HEXCOLON')"><text x="10" y="556" font-size="13">22 hex colon path</text></a>
+  <a id="p3-tab-colon" href="java&#9;script&#x3a;alert('P3_TABCOLON')"><text x="10" y="580" font-size="13">23 tab and colon</text></a>
+
+  <text id="p3-end" x="10" y="620" font-size="16" fill="#000">P3 END</text>
+  <rect id="p3-end-box" x="10" y="640" width="120" height="30" fill="#eee" stroke="#000"/>
+  <text id="p3-end-label" x="18" y="660" font-size="12" fill="#000">P3-END-BOX</text>
+</svg>

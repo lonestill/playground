@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="720" viewBox="0 0 900 720">
+  <title id="p6-title"><![CDATA[</title><script>alert('P6_TITLE')</script>]]></title>
+  <desc id="p6-desc"><![CDATA[</desc><script>alert('P6_DESC')</script>]]></desc>
+  <metadata id="p6-meta">
+    <script id="p6-meta-script">alert('P6_META_SCRIPT')</script>
+    <style id="p6-meta-style">@import url("https://example.com/p6.css");</style>
+  </metadata>
+
+  <defs id="p6-defs">
+    <script id="p6-defs-script">alert('P6_DEFS_SCRIPT')</script>
+    <style id="p6-defs-style">text{fill:#900}</style>
+  </defs>
+  <symbol id="p6-symbol"><script id="p6-symbol-script">alert('P6_SYMBOL_SCRIPT')</script></symbol>
+  <marker id="p6-marker"><script id="p6-marker-script">alert('P6_MARKER_SCRIPT')</script></marker>
+  <pattern id="p6-pattern"><script id="p6-pattern-script">alert('P6_PATTERN_SCRIPT')</script></pattern>
+  <clipPath id="p6-clip"><script id="p6-clip-script">alert('P6_CLIP_SCRIPT')</script></clipPath>
+  <mask id="p6-mask"><script id="p6-mask-script">alert('P6_MASK_SCRIPT')</script></mask>
+
+  <rect id="p6-bg" x="0" y="0" width="900" height="720" fill="#fff"/>
+  <text id="p6-start" x="10" y="24" font-size="16">P6 START</text>
+
+  <foreignObject id="p6-fo-html" x="10" y="40" width="260" height="120">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <script id="p6-fo-script">alert('P6_FO_SCRIPT')</script>
+      <style id="p6-fo-style">@import url("https://example.com/p6-fo.css");</style>
+      <iframe id="p6-fo-iframe" srcdoc="&lt;script&gt;alert('P6_FO_SRCDOC')&lt;/script&gt;"></iframe>
+      <img id="p6-fo-img" src="x" onerror="alert('P6_FO_IMG')" />
+      <p>P6 FO HTML</p>
+    </div>
+  </foreignObject>
+
+  <foreignObject id="p6-fo-table" x="300" y="40" width="260" height="120">
+    <table xmlns="http://www.w3.org/1999/xhtml"><tbody><tr><td><xmp>P6 XMP TEXT</xmp></td></tr></tbody></table>
+  </foreignObject>
+
+  <math xmlns="http://www.w3.org/1998/Math/MathML" id="p6-math" x="10" y="200">
+    <mtext><table><mglyph><xmp>P6 MATH XMP</xmp></mglyph></table></mtext>
+    <annotation-xml encoding="text/html">
+      <style><img src="x" onerror="alert('P6_ANNOTATION')" /></style>
+    </annotation-xml>
+  </math>
+
+  <a id="p6-control" href="javascript:alert('P6_CONTROL')"><text x="10" y="420" font-size="13">P6 CONTROL javascript</text></a>
+  <a id="p6-xlink-control" xlink:href="javascript:alert('P6_XLINK_CONTROL')"><text x="10" y="444" font-size="13">P6 XLINK CONTROL javascript</text></a>
+
+  <text id="p6-end" x="10" y="500" font-size="16">P6 END</text>
+  <rect id="p6-end-box" x="10" y="520" width="160" height="34" fill="#eee" stroke="#000"/>
+  <text id="p6-end-label" x="18" y="542" font-size="12">P6-END-BOX</text>
+</svg>
