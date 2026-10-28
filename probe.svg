@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800" height="640" viewBox="0 0 800 640" onload="window.p1=1" onbegin="window.p2=1">
+  <title id="t1">probe</title>
+  <desc id="d1">probe</desc>
+  <metadata id="m1">probe</metadata>
+  <style id="s1">circle{fill:#090}</style>
+  <script id="sc1">window.p3=1</script>
+  <a id="a1" href="https://example.com/"><text id="tx1" x="10" y="30">A-link</text></a>
+  <a id="a2" xlink:href="https://example.com/2"><text x="10" y="60">A-xlink</text></a>
+  <a id="a3" href="javascript:window.p4=1"><text x="10" y="90">A-js</text></a>
+  <image id="i1" href="https://loremflickr.com/100/100" width="60" height="60" x="10" y="110"/>
+  <image id="i2" href="data:image/png;base64,iVBORw0KGgo=" width="60" height="60" x="90" y="110"/>
+  <circle id="c1" cx="300" cy="140" r="20" style="fill:#090" class="cls" fill="#009" stroke="#000" stroke-width="2"/>
+  <use id="u1" href="#c1" x="10" y="190"/>
+  <use id="u2" xlink:href="#c1" x="70" y="190"/>
+  <animate id="an1" attributeName="opacity" values="1;0.5;1" dur="2s" begin="0s" repeatCount="2" onbegin="window.p5=1" onend="window.p6=1" onrepeat="window.p7=1"/>
+  <animateTransform id="at1" attributeName="transform" type="rotate" values="0;10" dur="2s" begin="0s" onbegin="window.p8=1"/>
+  <set id="se1" attributeName="opacity" to="0.9" begin="1s" onbegin="window.p9=1"/>
+  <animateMotion id="am1" dur="2s" begin="0s" onbegin="window.p10=1"/>
+  <handler id="h1" xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load">window.p11=1</handler>
+  <listener id="l1" event="load" handler="#h1"/>
+  <foreignObject id="fo1" width="120" height="40" x="10" y="230"><div xmlns="http://www.w3.org/1999/xhtml">FO</div></foreignObject>
+  <iframe id="ifr1" src="https://example.com/" x="10" y="290" width="120" height="50"/>
+  <embed id="emb1" src="https://example.com/" type="image/svg+xml" x="10" y="350" width="120" height="50"/>
+  <object id="obj1" data="https://example.com/" x="10" y="410" width="120" height="50"/>
+  <filter id="f1"><feImage id="fei1" href="https://loremflickr.com/50/50" result="r1"/></filter>
+  <switch id="sw1"><text id="swt1">SW</text></switch>
+  <tref id="tr1" href="#t1"/>
+  <text id="tx2" x="10" y="500" onclick="window.p12=1" onmouseover="window.p13=1">hover</text>
+  <rect id="r1" x="10" y="530" width="80" height="40" fill="#333" onclick="window.p14=1"/>
+  <animate attributeName="onmouseover" to="window.p15=1" begin="0s" dur="1s" id="an2"/>
+</svg>
