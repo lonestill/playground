@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="360" viewBox="0 0 560 360">
+  <title id="p7-title">probe7 minimal xlink</title>
+  <rect id="p7-bg" x="0" y="0" width="560" height="360" fill="#ffffff"/>
+  <text id="p7-start" x="10" y="24" font-size="16" fill="#000">P7 START: click each row</text>
+
+  <a id="p7-xlink" xlink:href="javascript:alert('P7_XLINK')"><text x="10" y="56" font-size="14">01 xlink javascript</text></a>
+  <a id="p7-xlink-case" xlink:href="JaVaScRiPt:alert('P7_XLINK_CASE')"><text x="10" y="80" font-size="14">02 xlink mixed case</text></a>
+  <a id="p7-xlink-tab" xlink:href="java&#9;script:alert('P7_XLINK_TAB')"><text x="10" y="104" font-size="14">03 xlink tab</text></a>
+  <a id="p7-href" href="javascript:alert('P7_HREF')"><text x="10" y="128" font-size="14">04 href javascript</text></a>
+  <a id="p7-alias" xmlns:xl="http://www.w3.org/1999/xlink" xl:href="javascript:alert('P7_ALIAS')"><text x="10" y="152" font-size="14">05 alias xlink javascript</text></a>
+  <a id="p7-safe" xlink:href="https://example.com/p7-safe"><text x="10" y="176" font-size="14">06 safe xlink control</text></a>
+  <a id="p7-data" href="data:text/html,&lt;script&gt;alert('P7_DATA')&lt;/script&gt;"><text x="10" y="200" font-size="14">07 data text/html</text></a>
+
+  <text id="p7-end" x="10" y="250" font-size="16" fill="#000">P7 END</text>
+  <rect id="p7-end-box" x="10" y="270" width="120" height="30" fill="#eee" stroke="#000"/>
+  <text id="p7-end-label" x="18" y="290" font-size="12" fill="#000">P7-END-BOX</text>
+</svg>

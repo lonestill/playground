@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:s="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+  <title id="p8-title">probe8 breakout</title>
+  <rect id="p8-bg" x="0" y="0" width="900" height="700" fill="#ffffff"/>
+  <text id="p8-start" x="10" y="24" font-size="16">P8 START</text>
+
+  <s:foreignObject id="p8-wrap-1" x="10" y="50" width="400" height="220">
+    <a id="p8-html-xlink" xlink:href="javascript:alert('P8_HTML_XLINK')">P8 HTML XLINK</a>
+    <a id="p8-html-href" href="javascript:alert('P8_HTML_HREF')">P8 HTML HREF</a>
+    <img id="p8-html-img" src="x" onerror="alert('P8_HTML_IMG')" />
+    <iframe id="p8-html-iframe" srcdoc="&lt;script&gt;alert('P8_HTML_IFRAME')&lt;/script&gt;"></iframe>
+    <style id="p8-html-style">body{background:red}</style>
+    <script id="p8-html-script">alert('P8_HTML_SCRIPT')</script>
+    <p id="p8-html-p">P8 HTML P</p>
+    <svg id="p8-inner-svg" width="120" height="40"><a id="p8-inner-xlink" xlink:href="javascript:alert('P8_INNER_XLINK')"><text x="2" y="20">P8 inner xlink</text></a></svg>
+  </s:foreignObject>
+
+  <s:div id="p8-wrap-2">
+    <a id="p8-html-xlink-2" xlink:href="javascript:alert('P8_HTML_XLINK_2')">P8 HTML XLINK 2</a>
+    <a id="p8-html-href-2" href="javascript:alert('P8_HTML_HREF_2')">P8 HTML HREF 2</a>
+    <img id="p8-html-img-2" src="x" onerror="alert('P8_HTML_IMG_2')" />
+  </s:div>
+
+  <math xmlns="http://www.w3.org/1998/Math/MathML" id="p8-math">
+    <mtext><a id="p8-math-xlink" xlink:href="javascript:alert('P8_MATH_XLINK')">P8 math xlink</a></mtext>
+    <annotation-xml encoding="text/html"><img id="p8-math-img" src="x" onerror="alert('P8_MATH_IMG')" /></annotation-xml>
+  </math>
+
+  <text id="p8-end" x="10" y="400" font-size="16">P8 END</text>
+  <rect id="p8-end-box" x="10" y="420" width="140" height="34" fill="#eee" stroke="#000"/>
+  <text id="p8-end-label" x="18" y="442" font-size="12">P8-END-BOX</text>
+</svg>
