@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="1000" viewBox="0 0 800 1000">
+  <rect id="q01" x="10" y="10" width="60" height="30" fill="#345"/>
+  <metadata id="q02"><script id="q03">window.q1=1</script></metadata>
+  <metadata id="q04"><style id="q05">@import url("https://example.com/x.css");text{fill:#900}</style></metadata>
+  <metadata id="q06"><animate id="q07" attributeName="opacity" values="1;0" dur="1s" begin="0s" onbegin="window.q2=1"/></metadata>
+  <desc id="q08"><script id="q09">window.q3=1</script></desc>
+  <set id="q10" attributeName="opacity" to="0.9" begin="1s" onbegin="window.q4=1"/>
+  <animateMotion id="q11" dur="2s" begin="0s" path="M0,0 L10,10" onbegin="window.q5=1"/>
+  <handler id="q12">window.q6=1</handler>
+  <listener id="q13" event="load" handler="#q12"/>
+  <foreignObject id="q14" x="10" y="50" width="100" height="40">plain text</foreignObject>
+  <filter id="q15" x="0" y="0" width="100" height="100">
+    <feImage id="q16" href="https://loremflickr.com/40/40" result="r1"/>
+    <feFlood id="q17" flood-color="#090"/>
+  </filter>
+  <rect id="q18" x="10" y="100" width="60" height="30" fill="#333" filter="url(#q15)"/>
+  <switch id="q19"><text id="q20" x="10" y="150">SW</text></switch>
+  <tref id="q21" href="#q20"/>
+  <text id="q22" x="10" y="180" onclick="window.q7=1" onmouseover="window.q8=1" style="fill:#900">ev-hover</text>
+  <animate id="q23" attributeName="onmouseover" to="window.q9=1" begin="0s" dur="1s"/>
+  <animate id="q24" attributeName="href" values="X;javascript:window.q10=1//" begin="0s" dur="0.1s" fill="freeze"/>
+  <svg id="q25" x="10" y="200" width="60" height="40" onload="window.q11=1" onbegin="window.q12=1" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <use id="q26" xlink:href="#q01"/>
+  </svg>
+  <use id="q27" href="https://loremflickr.com/40/40#x" x="10" y="250"/>
+  <image id="q28" href="http://loremflickr.com/40/40" width="40" height="40" x="80" y="250"/>
+  <a id="q29" href="https://example.com/ok"><text x="10" y="320">s-https</text></a>
+  <a id="q30" href="http://example.com/ok"><text x="10" y="350">s-http</text></a>
+  <a id="q31" href="//example.com/ok"><text x="10" y="380">s-proto-rel</text></a>
+  <a id="q32" href="#q01"><text x="10" y="410">s-frag</text></a>
+  <a id="q33" href="mailto:a@b.cd"><text x="10" y="440">s-mailto</text></a>
+  <a id="q34" href="javascript:window.q13=1"><text x="10" y="470">s-js</text></a>
+  <a id="q35" href="JaVaScRiPt:window.q14=1"><text x="10" y="500">s-js-case</text></a>
+  <a id="q36" href="java&#9;script:window.q15=1"><text x="10" y="530">s-js-tab</text></a>
+  <a id="q37" href="java&#10;script:window.q16=1"><text x="10" y="560">s-js-lf</text></a>
+  <a id="q38" href="java&#13;script:window.q17=1"><text x="10" y="590">s-js-cr</text></a>
+  <a id="q39" href=" javascript:window.q18=1"><text x="10" y="620">s-js-space</text></a>
+  <a id="q40" href="vbscript:window.q19=1"><text x="10" y="650">s-vbs</text></a>
+  <a id="q41" href="blob:https://example.com/1"><text x="10" y="680">s-blob</text></a>
+  <image id="q42" href="javascript:window.q20=1" width="20" height="20" x="10" y="710"/>
+  <use id="q43" href="javascript:window.q21=1" x="40" y="710"/>
+  <iframe id="q44" src="https://example.com/" x="10" y="740" width="80" height="40"/>
+  <iframe id="q45" srcdoc="&lt;script&gt;window.q22=1&lt;/script&gt;" x="100" y="740" width="80" height="40"/>
+  <object id="q46" data="https://example.com/" type="text/html" x="10" y="790" width="80" height="40"/>
+  <embed id="q47" src="https://example.com/" type="text/html" x="10" y="840" width="80" height="40"/>
+</svg>
