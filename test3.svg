@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" onload="alert(1)">
+  <script>alert(2)</script>
+  <animate onbegin="alert(3)" attributeName="x" dur="1s"/>
+  <style>svg{animation:a .1s}@keyframes a{to{opacity:.9}}</style>
+  <animate attributeName="onmouseover" to="alert(4)" begin="0s" dur="1s"/>
+</svg>
