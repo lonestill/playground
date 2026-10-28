@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="700" viewBox="0 0 900 700">
+  <title id="p11-title">probe11 sanitizer fingerprint</title>
+  <rect id="p11-bg" x="0" y="0" width="900" height="700" fill="#ffffff"/>
+  <text id="p11-start" x="10" y="24" font-size="16">P11 FINGERPRINT START</text>
+
+  <a id="p11-a-nohref">A no href</a>
+  <a id="p11-a-safe" href="https://example.com/p11">A safe href</a>
+  <a id="p11-a-attrs" href="https://example.com/p11-attrs" target="_blank" rel="opener" download="p11.txt" ping="https://example.com/ping">A attrs</a>
+  <a id="p11-a-js" href="javascript:alert('P11_A_JS')">A js</a>
+  <a id="p11-a-data" href="data:text/html,&lt;script&gt;alert('P11_A_DATA')&lt;/script&gt;">A data</a>
+
+  <div id="p11-div-attrs" data-x="1" aria-label="p11" class="p11-class" style="color:red" hidden="hidden">DIV attrs</div>
+  <img id="p11-img" src="x" srcset="https://example.com/p11.png 1x" onerror="alert('P11_IMG')"/>
+  <textarea id="p11-textarea">&lt;script&gt;alert('P11_TEXTAREA')&lt;/script&gt;</textarea>
+  <xmp id="p11-xmp">&lt;script&gt;alert('P11_XMP')&lt;/script&gt;</xmp>
+  <noscript id="p11-noscript"><p>P11 NOSCRIPT</p></noscript>
+  <template id="p11-template"><p>P11 TEMPLATE</p></template>
+
+  <form id="p11-form" action="javascript:alert('P11_FORM')">
+    <input id="p11-input" formaction="javascript:alert('P11_INPUT')"/>
+    <button id="p11-button" formaction="javascript:alert('P11_BUTTON')">P11 BUTTON</button>
+  </form>
+
+  <svg id="p11-inner-svg" width="260" height="100">
+    <a id="p11-inner-a-nohref">inner A no href</a>
+    <a id="p11-inner-a-safe" xlink:href="https://example.com/p11-safe">inner A safe xlink</a>
+    <a id="p11-inner-a-js" xlink:href="javascript:alert('P11_INNER_XLINK')">inner A js xlink</a>
+    <a id="p11-inner-a-href" href="javascript:alert('P11_INNER_HREF')">inner A js href</a>
+  </svg>
+
+  <foreignObject id="p11-fo" x="10" y="300" width="300" height="80">
+    <a id="p11-fo-a" xlink:href="javascript:alert('P11_FO_XLINK')">FO A xlink</a>
+  </foreignObject>
+
+  <math xmlns="http://www.w3.org/1998/Math/MathML" id="p11-math">
+    <mtext id="p11-mtext"><a id="p11-mtext-a" xlink:href="javascript:alert('P11_MTEXT_XLINK')">MTEXT A</a></mtext>
+    <annotation-xml id="p11-annotation" encoding="text/html">
+      <a id="p11-annotation-a" xlink:href="javascript:alert('P11_ANNOTATION_XLINK')">ANNOTATION A</a>
+    </annotation-xml>
+  </math>
+
+  <div id="p11-html-data" data-html="1">HTML DATA ATTR</div>
+  <span id="p11-html-span" data-span="1" style="color:blue">HTML SPAN</span>
+  <b id="p11-html-b" data-b="1">HTML B</b>
+  <i id="p11-html-i" data-i="1">HTML I</i>
+
+  <text id="p11-end" x="10" y="650" font-size="16">P11 FINGERPRINT END</text>
+  <rect id="p11-end-box" x="10" y="660" width="170" height="20" fill="#eee" stroke="#000"/>
+  <text id="p11-end-label" x="16" y="674" font-size="11">P11-END-MARKER</text>
+</svg>
