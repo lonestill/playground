@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="500" viewBox="0 0 900 500">
+  <title id="p10-title">probe10 integration points</title>
+  <rect id="p10-bg" x="0" y="0" width="900" height="500" fill="#ffffff"/>
+  <text id="p10-start" x="10" y="24" font-size="16">P10 START</text>
+
+  <foreignObject id="p10-fo" x="10" y="40" width="300" height="60">
+    <a id="p10-fo-a" xlink:href="javascript:alert('P10_FO_A')">P10 FO A</a>
+    <a id="p10-fo-a2" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:alert('P10_FO_A2')">P10 FO A2</a>
+  </foreignObject>
+
+  <desc id="p10-desc"><a id="p10-desc-a" xlink:href="javascript:alert('P10_DESC_A')">P10 DESC A</a></desc>
+  <title id="p10-title-inner"><a id="p10-title-a" xlink:href="javascript:alert('P10_TITLE_A')">P10 TITLE A</a></title>
+
+  <switch id="p10-switch">
+    <foreignObject id="p10-switch-fo" x="10" y="120" width="300" height="60">
+      <a id="p10-switch-a" xlink:href="javascript:alert('P10_SWITCH_A')">P10 SWITCH A</a>
+    </foreignObject>
+  </switch>
+
+  <math xmlns="http://www.w3.org/1998/Math/MathML" id="p10-math">
+    <mtext id="p10-mtext"><a id="p10-mtext-a" xlink:href="javascript:alert('P10_MTEXT_A')">P10 MTEXT A</a></mtext>
+    <annotation-xml id="p10-ann" encoding="text/html"><a id="p10-ann-a" xlink:href="javascript:alert('P10_ANN_A')">P10 ANN A</a></annotation-xml>
+  </math>
+
+  <text id="p10-end" x="10" y="250" font-size="16">P10 END</text>
+  <rect id="p10-end-box" x="10" y="270" width="140" height="30" fill="#eee" stroke="#000"/>
+  <text id="p10-end-label" x="18" y="290" font-size="12">P10-END-BOX</text>
+</svg>
