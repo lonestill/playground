@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="560" height="140" viewBox="0 0 560 140">
+  <title id="p12u-title">probe12 uppercase extension bypass</title>
+  <rect x="0" y="0" width="560" height="140" fill="#fff"/>
+  <script>alert('P12_UPPER')</script>
+  <text x="10" y="30" font-size="18">P12 UPPER .SVG</text>
+  <a xlink:href="javascript:alert('P12_UPPER_XLINK')"><text x="10" y="60" font-size="16">P12 UPPER XLINK CLICK</text></a>
+  <image href="x" onerror="alert('P12_UPPER_ONERROR')"/>
+  <text x="10" y="110" font-size="16">P12-UPPER-END</text>
+</svg>
